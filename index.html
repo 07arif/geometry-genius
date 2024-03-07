@@ -45,10 +45,16 @@
                   placeholder="height"
                   id=""
                 />
+                <span class="ml-2">cm</span>
               </p>
-              <span class="ml-2">cm</span>
-              <div class="justify-end card-actions">
-                <button class="btn btn-primary">Buy Now</button>
+              <p>Area: <span></span></p>
+              <div class="card-actions">
+                <button
+                  onclick="calculateTriangleArea"
+                  class="w-full btn btn-primary"
+                >
+                  Area Calculator
+                </button>
               </div>
             </div>
           </div>
@@ -85,5 +91,6 @@
         </div>
       </div>
     </main>
+    <script src="/scripts/area-calculator.js"></script>
   </body>
 </html>
